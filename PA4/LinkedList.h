@@ -38,7 +38,6 @@ public:
         while (head) {
             Node* temp = head;
             head = head->next;
-            // only delete the node, not the data
             delete temp;
         }
     }
