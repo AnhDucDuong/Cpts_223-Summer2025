@@ -1,0 +1,24 @@
+Overview:
+This is PA5 an extension of PA4. It add sorting to the amazon inventory REPL system.
+Supports insertion sort and merge sort with ascending/descending options.
+
+
+Commands:
+- find <inventoryid>
+- listInventory <category>
+- listInventory <category> desc
+- listInventory <category> merge
+- listInventory <category> merge desc
+- :help
+- :quit
+
+Sorting Notes:
+- Insertion Sort is default.
+- Merge Sort seems faster on larger lists.
+- Both work with asc and desc.
+
+
+Build & Run:
+make
+./inventory_app
+
